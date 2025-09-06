@@ -1,0 +1,207 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Montserrat,sans-serif;
+}
+header {
+    width:100%;
+    background-color:#fff;;
+    align-items: center;
+    height:50px;
+    display: flex;
+    position: fixed;
+justify-content: space-between;
+
+text-align: center;
+z-index: 9999;
+
+
+
+
+
+}
+#logo1{
+    width:30px;
+    height:30px;
+    position:absolute;
+    left:50%;
+    transform: translateY(-50%);
+    align-items: center;
+    cursor: pointer;
+  
+}
+
+nav ul {
+    padding: 0px;
+    list-style: none;
+    
+    
+
+    
+}
+nav a{
+    color:#789;
+    text-decoration: none;
+    font-size: 14px;
+    cursor:pointer;
+    font-weight: bold;
+    
+    
+}
+nav li{
+    display: inline-block;
+    padding: 21px 12px 15px;
+    
+    
+    
+}
+.left-links{
+    margin-left: 170px;
+    
+}
+/* .megamenu{
+    position: absolute;
+    width:100%;
+    height:250Px;
+    left:0px;
+    top:100%;
+    box-shadow: 0px 2px 2px 2px lightblue;
+    ;} */
+    /* .megamenu ul li{
+        
+        position: absolute;
+        left:0px;
+        display: block;
+
+    } */
+    
+
+.right-links{
+    margin-right: 170px;
+}
+.hamburger{
+    font-size:25px;
+    cursor:pointer;
+    display: none;
+    
+    
+}
+.studysection{
+    width:100%;
+    height:800px;
+    background-color: #f7f7f7;  
+}
+.boystudy{
+
+    height: 280px;
+    width:510px;
+    border:2px solid;
+    background-color: black;
+    border-radius: 4px;
+position: absolute;
+margin-left: 190px;
+top:290px;
+ padding: 25px 20px 10px 50px;
+ z-index: 1;
+
+}
+
+
+.studyimage{
+    width:972px;
+    height:548px;
+margin-left:368px;
+padding-top: 80px;
+position: relative;
+
+
+
+
+
+}
+
+.signature-section small, span{
+    color: #fff;
+    font-weight: bold;
+color: #fff;
+
+margin:0px;
+padding:0px;
+}
+.signature-section span{
+    margin-left: 240px;
+    transform: rotate(-7deg);
+    display: inline-block;
+    font-size: 22px;
+    padding-top: 30px;
+    
+
+}
+.boystudy p{
+    color: #fff;
+}
+.computer{
+    width:585px;
+    margin-top: 100px;
+    margin-left: 190px;
+    height: 327px;
+}
+.service-section{
+    width:100%;
+    
+    display:flex;
+}
+
+.video-section{
+    border:2px solid white;
+    width:565px;
+    height: 327px;
+     margin-top: 100px;
+     padding-top: 90px;
+     background-color: #fff;
+     text-align: center;
+     
+}
+.videoicon{
+    font-size: 50px;
+}
+.ourservice{
+font-size: 20px;
+text-align: center;
+}
+
+ @media (max-width:990px){
+ .left-links{
+        position:absolute;
+        top: 50px;
+        padding-top: 30px;
+        background-color: greenyellow;
+        flex-direction: column;
+        width: 100%;
+        height:160px;
+        gap:15px;
+        display: flex;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 10px;
+        
+    
+        
+    }
+    .hamburger{
+        display: block;
+        font-size: 25px;
+        margin-right: 20px;
+        cursor: pointer;
+    
+        
+    }
+.right-links{
+    display: flex;
+    display: none;
+}
+.left-links.show{
+    display: block;
+}
+
+ };
